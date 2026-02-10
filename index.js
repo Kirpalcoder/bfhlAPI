@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-  res.json({is_success:true,message:"Welcome to bfhl api, Bajaj 😀"})
+  res.json({is_success:true,message:"Welcome"})
 })
 app.get("/health", (_req, res) => {
   return res.status(200).json({
